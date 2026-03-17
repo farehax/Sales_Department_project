@@ -1,7 +1,21 @@
 # Sales Department Project
 
+![GitHub repo size](https://img.shields.io/github/repo-size/farehax/Sales_Department_project)
+![GitHub stars](https://img.shields.io/github/stars/farehax/Sales_Department_project?style=social)
+![GitHub forks](https://img.shields.io/github/forks/farehax/Sales_Department_project?style=social)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 ## 📌 Overview
-This project focuses on analyzing sales data to uncover insights that can enhance sales strategies and performance
+This project focuses on analyzing sales data to uncover insights that can enhance sales strategies and performance
+
+## ⭐ Key Highlights
+
+- Performed complete **EDA on sales dataset**
+- Built a **sales prediction model**
+- Achieved improved model performance
+- Visualized trends using **Matplotlib & Seaborn**
+- Analyzed impact of **holidays & external factors**
 
 ## 📂 Project Structure
 
@@ -13,9 +27,9 @@
 ├── README.md                         # Project documentation
 ```
 
-## 📊 Datase
+## 📊 Dataset
 
-The project utilizes two primary datases:
+The project utilizes two primary datasets:
 
 1. **store.csv*: Contains information about different stores, includig:
    - **Store ID*: Unique identifier for each stoe.
@@ -37,8 +51,8 @@
 ### 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/27abhishek27/Sales-Department-Project.git
-cd Sales-Department-Project
+git clone https://github.com/farehax/Sales_Department_project.git
+cd Sales_Department_project
 ```
 
 ### 2️⃣ Install dependencies:
@@ -77,15 +91,17 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 - **Model Evaluatio**: Assessed model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RSE).
 
 ## 📊 Visualizations
+![Group by Month Customer](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/groupby%20month%20customer.png)
 
-Here are some visualizations from the project:
+![Group by Month](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/groupby%20month.png)
 
-![alt text](https://github.com/27abhishek27/Sales-Department-Project/blob/main/Sales%20Department%20Project%20Png/groupby%20month%20customer.png)
-![alt text](https://github.com/27abhishek27/Sales-Department-Project/blob/main/Sales%20Department%20Project%20Png/groupby%20month.png)
-![alt text](https://github.com/27abhishek27/Sales-Department-Project/blob/main/Sales%20Department%20Project%20Png/heatmap.png)
-![alt text](https://github.com/27abhishek27/Sales-Department-Project/blob/main/Sales%20Department%20Project%20Png/sales_predictions.png)
-![alt text](https://github.com/27abhishek27/Sales-Department-Project/blob/main/Sales%20Department%20Project%20Png/sales_train_df_hist.png)
-![alt text](https://github.com/27abhishek27/Sales-Department-Project/blob/main/Sales%20Department%20Project%20Png/store_info_df.hist.png)
+![Heatmap](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/heatmap.png)
+
+![Sales Predictions](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/sales_predictions.png)
+
+![Sales Histogram](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/sales_train_df_hist.png)
+
+![Store Info Histogram](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/store_info_df.hist.png)
 
 ## 🛠️ Technologies Used
 
@@ -100,4 +116,10 @@ Here are some visualizations from the project:
 - **Advanced Time Series Moels**: Implement models like ARIMA or Prophet for more accurate sales foreasting.
 - **Incorporate Additional ata**: Integrate external data sources such as economic indicators or competitor pricing to enhance model perfrmance.
 - **Interactive Dashbords**: Develop dashboards using tools like Tableau or Power BI for real-time sales monitoring and decision upport.
+
+ ## 🙋‍♀️ Author
+
+**Fareha Khan**
+
+📫 Connect with me on LinkedIn
 
