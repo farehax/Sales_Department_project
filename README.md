@@ -11,11 +11,11 @@ This project focuses on analyzing sales data to uncover insights that can enhanc
 
 ## ⭐ Key Highlights
 
-- Performed complete **EDA on sales dataset**
-- Built a **sales prediction model**
+- Performed complete **EDA on sales dataset
+- Built a **sales prediction model
 - Achieved improved model performance
-- Visualized trends using **Matplotlib & Seaborn**
-- Analyzed impact of **holidays & external factors**
+- Visualized trends using **Matplotlib & Seaborn
+- Analyzed impact of **holidays & external factors
 
 ## 📂 Project Structure
 
@@ -31,20 +31,20 @@ This project focuses on analyzing sales data to uncover insights that can enhanc
 
 The project utilizes two primary datasets:
 
-1. **store.csv*: Contains information about different stores, includig:
-   - **Store ID*: Unique identifier for each stoe.
-   - **Type*: Categorical variable indicating the type of stoe.
-   - **Size*: The physical size of the stoe.
+1. store.csv: Contains information about different stores, includig:
+   - Store ID: Unique identifier for each store.
+   - Type: Categorical variable indicating the type of store.
+   - Size: The physical size of the store.
 
-2. **train.csv*: Includes historical sales data with features such s:
-   - **Store ID*: Reference to the stoe.
-   - **Date*: The date of the sales recod.
-   - **Weekly Sales*: Sales figures for the given wek.
-   - **Holiday Flag*: Indicator of whether the week includes a holidy.
-   - **Temperature*: Average temperature for the wek.
-   - **Fuel Price*: Cost of fuel during the wek.
-   - **CPI*: Consumer Price Indx.
-   - **Unemployment*: Unemployment rate during the wek.
+2. train.csv: Includes historical sales data with features such as:
+   - Store ID: Reference to the store.
+   - Date: The date of the sales recod.
+   - Weekly Sales: Sales figures for the given week.
+   - Holiday Flag: Indicator of whether the week includes a holidy.
+   - Temperature: Average temperature for the week.
+   - Fuel Price: Cost of fuel during the week.
+   - CPI: Consumer Price Index.
+   - Unemployment: Unemployment rate during the week.
 
 ## 🚀 Installation
 
@@ -75,20 +75,20 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ### 1. **Data Preprocessing**
 
-- **Handling Missing Value**: Identified and addressed any missing data in the dataets.
-- **Feature Engineerin**: Created new features to better capture temporal patterns, such as extracting month and year from the `Date` feld.
-- **Data Mergin**: Combined `store.csv` and `train.csv` datasets based on `Store ID` to consolidate informaion.
+- **Handling Missing Value**: Identified and addressed any missing data in the dataets.
+- **Feature Engineerin**: Created new features to better capture temporal patterns, such as extracting month and year from the `Date` feld.
+- **Data Mergin**: Combined `store.csv` and `train.csv` datasets based on `Store ID` to consolidate informaion.
 
 ### 2. **Exploratory Data Analysis (EDA)**
 
-- **Sales Trends Analysi**: Examined sales patterns over time to identify seasonal effects and trnds.
-- **Impact of Holiday**: Analyzed how holidays influence weekly sales figres.
-- **Correlation Analysi**: Explored relationships between sales and external factors like `Temperature`, `Fuel Price`, `CPI`, and `Unemploymnt`.
+- **Sales Trends Analysi**: Examined sales patterns over time to identify seasonal effects and trnds.
+- **Impact of Holiday**: Analyzed how holidays influence weekly sales figres.
+- **Correlation Analysi**: Explored relationships between sales and external factors like `Temperature`, `Fuel Price`, `CPI`, and `Unemploymnt`.
 
 ### 3. **Predictive Modeling**
 
-- **Sales Forecastin**: Developed regression models to predict future sales based on historical data and external variales.
-- **Model Evaluatio**: Assessed model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RSE).
+- **Sales Forecastin**: Developed regression models to predict future sales based on historical data and external variales.
+- **Model Evaluatio**: Assessed model performance using metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RSE).
 
 ## 📊 Visualizations
 ![Group by Month Customer](https://github.com/farehax/Sales_Department_project/blob/main/Sales%20Department%20Project%20Png/groupby%20month%20customer.png)
